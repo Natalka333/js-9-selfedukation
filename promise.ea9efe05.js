@@ -1,0 +1,2 @@
+new Promise((function(n,o){setTimeout((function(){Math.random()>.5&&n("RESOLVE"),o("REJECT")}),2e3)})).then((function(n){return console.log(n),5})).then((function(n){console.log(n)})).then((function(n){console.log(n)})).catch((function(n){return console.log(n)})).finally((function(){console.log("%c ВСЕ БУДЕТ ХОРОШО. В ЛЮБОМ СЛУЧАЕ","color: red; font-size: 16px;")}));
+//# sourceMappingURL=promise.ea9efe05.js.map
