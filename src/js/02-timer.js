@@ -27,8 +27,7 @@ const timer = {
             const currentTime = Date.now();
             const deltaTime = userData - currentTime;
             // console.log(deltaTime);
-            timeComponents = convertMs(deltaTime);
-            const { days, hours, minutes, seconds } = timeComponents;
+            const { days, hours, minutes, seconds } = convertMs(deltaTime);
             refs.day.textContent = days;
             refs.hour.textContent = hours;
             refs.minute.textContent = minutes;
